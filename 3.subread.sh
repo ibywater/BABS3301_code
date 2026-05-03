@@ -73,15 +73,3 @@ subread-align -t 1 -i ~/TD/genome/index_new/mSarHar1.11_genomic_SubreadIndex \
 -R fem_TD_H3K4me3_S11_L001_R2_001_val_2.fq.gz \
 -o ~/TD/subread/F_TD_H3K4me3_trimmed.bam
 
-
-
-
-
-################################################################################
-
-#jess unedited
-
-subread-align -t 1 -i /srv/scratch/waters/Genomes/Devil/Subread_Index/mSarHar1.11_genomic_SubreadIndex \
--r /srv/scratch/waters/Jess/TrimmedFave/M_TD_H3K27me3_R1_trimmed_paired.fastq.gz \
--R /srv/scratch/waters/Jess/TrimmedFave/M_TD_H3K27me3_R2_trimmed_paired.fastq.gz \
--o /srv/scratch/waters/Jess/Subread/M_TD_H3K27me3_trimmed.bam
