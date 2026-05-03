@@ -20,6 +20,3 @@ samtools sort DFT_TD_input_trimmed.bam  -o sorted/DFT_TD_input_sorted.bam
 #Pos control H3K4me3
 samtools sort F_TD_H3K4me3_trimmed.bam -o sorted/F_TD_H3K4me3_sorted.bam
 samtools sort DFT_TD_H3K4me3_trimmed.bam -o sorted/DFT_TD_H3K4me3_sorted.bam
-
-# jess unedited
-samtools sort /srv/scratch/waters/Jess/Subread/M_TD_H3K9me3_trimmed.bam -o /srv/scratch/waters/Jess/Subread/sorted/M_TD_H3K9me3_sorted.bam
